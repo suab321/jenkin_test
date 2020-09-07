@@ -5,7 +5,7 @@
 
 struct Tracer{
     Tracer(){std::cout<<"O"<<std::endl;}
-    ~Tracer(){ std::cout<<"Destroyed"<<std::endl; }
+    ~Tracer(){ std::cout<<"Destroyed obj"<<std::endl; }
     int i=10;
     int j=20;
 };
